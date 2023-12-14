@@ -13,9 +13,9 @@ function buyTicket () {
     if (nameTicket === "yes"){
     //bucle por cantidad de ticket ingresados se solicita el nombre
     for ( let name = 1; name <= numbTicket; name++) {
-        let nombre = prompt("enter your Name");
+        let nombre = prompt(`enter your Name for the ${name} ticket`);
 
-        alert (`your 1st ticket is assigned to ${nombre}`) 
+        alert (`your ${name} ticket is assigned to ${nombre}`) 
     }
  }
     //calculamos el costo
